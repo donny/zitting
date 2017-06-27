@@ -5,3 +5,12 @@ code-bucket: gordon-fiftytwo-zitting
 apps:
   - gordon.contrib.lambdas
   - app
+
+apigateway:
+    zittingapi:
+        description: Zitting API
+        resources:
+            /:
+                methods: GET
+                integration:
+                    lambda: app.helloworld
