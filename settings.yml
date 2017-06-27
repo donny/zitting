@@ -1,7 +1,7 @@
 ---
 project: zitting
 default-region: us-east-1
-code-bucket: gordon-zitting-5d864764
+code-bucket: gordon-fiftytwo-zitting
 apps:
   - gordon.contrib.lambdas
-# - firstapp
+  - app

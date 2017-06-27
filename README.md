@@ -12,7 +12,7 @@ This project is part of [52projects](https://donny.github.io/52projects/) and th
 
 ### Implementation
 
-...
+We create a Gordon project by using the command: `gordon startproject zitting`. Followed by the command: `gordon startapp app` to create a new app. We build and deploy the project by running the following command: `gordon build; gordon apply`.
 
 ### Conclusion
 
