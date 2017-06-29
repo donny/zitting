@@ -13,4 +13,4 @@ apigateway:
             /:
                 methods: GET
                 integration:
-                    lambda: app.helloworld
+                    lambda: app.zitting
