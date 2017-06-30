@@ -3,5 +3,8 @@ from hackernews import HackerNews
 
 def handler(event, context):
     hn = HackerNews()
-    user = hn.get_user('pg')
-    return user.karma
+    results = []
+    for story_id in hn.top_stories(limit=10):
+        results.append(hn.get_item(story_id).title)
+
+    return json.dumps(results)
