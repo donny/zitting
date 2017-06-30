@@ -4,7 +4,7 @@ Zitting is ...
 
 ### Background
 
-This project is part of [52projects](https://donny.github.io/52projects/) and the new stuff that I learn through this project: [Gordon](https://github.com/jorgebastida/gordon).
+This project is part of [52projects](https://donny.github.io/52projects/) and the new stuff that I learn through this project: [Gordon](https://github.com/jorgebastida/gordon) and [Requests](http://docs.python-requests.org) (revisit).
 
 ### Project
 
