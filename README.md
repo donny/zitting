@@ -54,4 +54,6 @@ def handler(event, context):
 
 ### Conclusion
 
-...
+[Gordon](https://github.com/jorgebastida/gordon) is kind of similar to [Serverless](https://serverless.com) that I learnt from [Quail](https://github.com/donny/quail) a few weeks ago. They are basically a framework to simplify AWS Lambda development and deployment. As we can see from the list of [features](https://github.com/jorgebastida/gordon), Gordon aims to be more transparent (i.e. _less magic_) through simple YAML configuration and the generated CloudFormation templates. This is really great and we can actually deploy using the CloudFormation templates directly.
+
+There is a [bug](https://github.com/jorgebastida/gordon/issues/8) in Gordon related to the query parameters and API Gateway. Nevertheless, Gordon is a great tool and I can see using it in the future.
