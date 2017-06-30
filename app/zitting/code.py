@@ -1,8 +1,7 @@
 import json
-
+from hackernews import HackerNews
 
 def handler(event, context):
-    data = "Hello World!"
-    print(data)
-    print("Received Event: " + json.dumps(event, indent=2))
-    return data
+    hn = HackerNews()
+    user = hn.get_user('pg')
+    return user.karma
